@@ -1,0 +1,49 @@
+//variable colors
+$seablue: #24b3e2;
+$whitefoam: rgb(8, 8, 8);
+.corps{
+    background: $seablue;
+}
+p{
+    color: $whitefoam;
+}
+
+// hover & visited
+$flyover: rgb(116, 236, 116);
+$visited: rgb(241, 7, 230);
+
+a:hover {
+background-color: $flyover;
+}
+a:visited {
+    color: $visited;
+}
+//Color for h3
+@mixin title_color_text {
+    color: rgb(182, 26, 122);
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+h3{
+    @include title_color_text;
+    font-weight: bolder;
+    
+}
+// Background image
+@mixin title_image {
+    background-image: url("./axolotl-5415386_1280.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover
+    
+    
+}
+h1{
+    @include title_image;
+    color: rgb(79, 212, 113);
+    text-align: center;
+    font-family: monospace;
+    font-size: 7em;
+    
+}
+

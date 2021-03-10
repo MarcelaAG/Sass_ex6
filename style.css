@@ -1,0 +1,35 @@
+.corps {
+  background: #24b3e2;
+}
+
+p {
+  color: #080808;
+}
+
+a:hover {
+  background-color: #74ec74;
+}
+
+a:visited {
+  color: #f107e6;
+}
+
+h3 {
+  color: #b61a7a;
+  font-family: monospace;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+h1 {
+  background-image: url("./axolotl-5415386_1280.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #4fd471;
+  text-align: center;
+  font-family: monospace;
+  font-size: 7em;
+}
+
+/*# sourceMappingURL=style.css.map */
